@@ -124,15 +124,29 @@
                   class="display-1"
                   tile
                 >
-                  <p class="mt-4">OUR SERVICES</p>
+                  <p class="mt-4" data-aos="flip-down" data-aos-duration="2000">
+                    OUR SERVICES
+                  </p>
                 </v-banner>
               </v-col>
             </v-row>
             <v-row>
               <v-col cols="1"></v-col>
               <v-col col="6">
-                <h2>CCTV INSTALLATION</h2>
-                <p>
+                <h2
+                  data-aos="fade-left"
+                  data-aos-anchor="#example-anchor"
+                  data-aos-offset="500"
+                  data-aos-duration="500"
+                >
+                  CCTV INSTALLATION
+                </h2>
+                <p
+                  data-aos="fade-right"
+                  data-aos-anchor="#example-anchor"
+                  data-aos-offset="500"
+                  data-aos-duration="500"
+                >
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Fugiat rerum alias voluptate! Blanditiis, voluptate. Officia
                   sunt quaerat illo nulla ea, laborum vel aliquam? Voluptatem
@@ -153,8 +167,18 @@
             <v-row>
               <v-col cols="1"></v-col>
               <v-col col="6">
-                <h2>SOLAR SYSTEMS INSTALLATION</h2>
-                <p>
+                <h2
+                  data-aos="fade-down"
+                  data-aos-easing="linear"
+                  data-aos-duration="1500"
+                >
+                  SOLAR SYSTEMS INSTALLATION
+                </h2>
+                <p
+                  data-aos="fade-up"
+                  data-aos-easing="linear"
+                  data-aos-duration="1500"
+                >
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Fugiat rerum alias voluptate! Blanditiis, voluptate. Officia
                   sunt quaerat illo nulla ea, laborum vel aliquam? Voluptatem
@@ -175,8 +199,20 @@
             <v-row>
               <v-col cols="1"></v-col>
               <v-col col="6">
-                <h2>CAR ALARM AND SECURITY SYSTEMS</h2>
-                <p>
+                <h2
+                  data-aos="fade-zoom-in"
+                  data-aos-easing="ease-in-back"
+                  data-aos-delay="300"
+                  data-aos-offset="0"
+                >
+                  CAR ALARM AND SECURITY SYSTEMS
+                </h2>
+                <p
+                  data-aos="fade-zoom-out"
+                  data-aos-easing="ease-in-back"
+                  data-aos-delay="300"
+                  data-aos-offset="0"
+                >
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Fugiat rerum alias voluptate! Blanditiis, voluptate. Officia
                   sunt quaerat illo nulla ea, laborum vel aliquam? Voluptatem
@@ -206,7 +242,9 @@
                   class="display-1"
                   tile
                 >
-                  <p class="mt-4">PRODUCTS ON SALE</p>
+                  <p class="mt-4" data-aos="flip-up" data-aos-duration="2000">
+                    PRODUCTS ON SALE
+                  </p>
                 </v-banner>
               </v-col>
             </v-row>
@@ -258,7 +296,13 @@
                   class="display-1"
                   tile
                 >
-                  <p class="mt-4">TRAINING</p>
+                  <p
+                    class="mt-4"
+                    data-aos="flip-right"
+                    data-aos-duration="2000"
+                  >
+                    TRAINING
+                  </p>
                 </v-banner>
               </v-col>
             </v-row>
@@ -310,7 +354,7 @@
             height="28rem"
             elevation="3"
           >
-            <h1>Contact</h1>
+            <h1 data-aos="slide-up" data-aos-easing="ease">Contact</h1>
 
             <v-form
               name="contactus"
